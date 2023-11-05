@@ -9,7 +9,7 @@ public class Vehicle {
     public Vehicle(String name) {
         this.name = name;
         this.currentSpeed = 0;
-        this.currentDirection = 9;
+        this.currentDirection = 0;
     }
 
     public void steer(int direction){
